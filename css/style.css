@@ -1,0 +1,68 @@
+.registerform p,.loginform p{ 
+padding: 0px!imortant;
+margin: 0px!important;
+
+} 
+
+.registerform P label,.loginform P label{ 
+float: left; width: 135px;font-size:15px;
+
+}
+
+.loginform p{ margin:10px; font-size:15px;}  
+.loginform P label{ float: left; width: 135px;}
+.loginform input[type="text"],.registerform input[type="text"],.loginform input[type="password"],.registerform input[type="password"] {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    font-family: inherit;
+    padding: 0.428571rem;
+}
+.loginform button, .loginform input,.registerform button, .registerform input, {
+    line-height: normal!important;
+}
+.loginform input[type="submit"],.registerform input[type="submit"] {
+background-color: #E6E6E6;
+background-image: -moz-linear-gradient(center top , #F4F4F4, #E6E6E6);
+background-repeat: repeat-x;
+border: 1px solid #D2D2D2;
+border-radius: 3px 3px 3px 3px;
+color: #7C7C7C!important;
+font-size: 13px!important;
+font-weight: normal;
+line-height: 1.42857;
+padding: 0.428571rem 0.714286rem;
+cursor: pointer;
+}
+#registererror{
+background-color:#FFFFCC; color:#FF0000 ; border:#FFCC00 1px solid;margin:10px 0px; padding:6px;line-height:20px;
+}
+#sucess{
+background-color:#FFFFCC; color:green ; border:#FFCC00 1px solid;margin:10px 0px; padding:6px;line-height:20px;
+}
+#loginerror{
+background-color:#FFFFCC; color:red; border:#FFCC00 1px solid;margin:10px 0px; padding:6px;line-height:20px;
+}
+
+.registerform input[type="submit"]:hover, .loginform input[type="submit"]:hover {
+color: #5E5E5E;
+background-color: #EBEBEB;
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top, #F9F9F9, #EBEBEB);
+background-image: -ms-linear-gradient(top, #F9F9F9, #EBEBEB);
+background-image: -webkit-linear-gradient(top, #F9F9F9, #EBEBEB);
+background-image: -o-linear-gradient(top, #F9F9F9, #EBEBEB);
+background-image: linear-gradient(top, #F9F9F9, #EBEBEB);
+}
+P.formblock input {
+margin-bottom:12px!important;
+}
+P.formblock sup{
+color:#FF0000; font-weight:bold;
+}
+P.formblock label{
+min-width:150px;
+}
+#registererror ul, #loginerror ul{
+ list-style: disc outside none;
+margin: 0 0 0 60px;
+}
